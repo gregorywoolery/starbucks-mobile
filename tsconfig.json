@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "strict": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "typeRoots": [
+    "./src/types"
+  ],
+  "include": [
+    "src/**/*"
+  ],
+  "extends": "expo/tsconfig.base"
+}

@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "starbucks-mobile",
+    "slug": "starbucks-mobile",
+    "version": "0.0.1",
+    "privacy": "unlisted",
+    "description": "A template for React Native Expo projects using the bare workflow.",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.example.expo",
+      "buildNumber": "0.0.1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.example.expo",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    }
+  }
+}
